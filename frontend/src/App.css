@@ -1,0 +1,57 @@
+.App {
+  text-align: center;
+}
+
+.room-name {
+  text-align: left;
+  margin-bottom: 20px;
+  width: 33%;
+}
+
+.room-name:hover{
+  cursor: pointer;
+  color: grey;
+}
+
+.main-body{
+  display: flex;
+  flex-direction: row;
+}
+
+.messages{
+  background-color: grey;
+  height: 80vh;
+  width: 80vw;
+  display: flex;
+  overflow-y: scroll;
+  flex-direction: column-reverse;
+}
+
+.message{
+  position: relative;
+  width: 40%;
+  min-height: 40px;
+  text-align: left;
+  padding: 20px;
+  margin-bottom: 10px;
+  border-radius: 10px;
+}
+
+.message-username{
+  color: white;
+  font-size: 0.8rem;
+}
+
+.message-text{
+  color: white;
+  font-size: 1.2rem;
+}
+
+.message-input{
+  width: 100%;
+}
+
+.message-input-text{
+  width: 95%;
+  height: 30px;
+}
